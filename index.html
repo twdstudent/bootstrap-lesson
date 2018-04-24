@@ -47,7 +47,7 @@
                     <section class="callout jumbotron text-center">
                         <h1>The finest whiskeys delivered to your doorstep.</h1>
                         <p class="lead">Sign up today to start receiving the worlds best whiskeys every month.<s class="hidden-xs">€19.99</s><span class="visible-xs"><br></span><strong><mark>First one is free!</mark></strong></p>
-                        <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
+                        <p><button class="btn btn-lg btn-success" data-toggle='mode' data-target='#signUpModal'>Sign Up!</button></p>
                         <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                     </section>
                 </div>
@@ -141,7 +141,27 @@
             </section>
             <!-- /features -->
         </article>
-
+     
+        <!-- Modal -->
+        <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
